@@ -16,10 +16,10 @@ for (let letter of textToTranslate){
         translation = translation + letter
     }
 }
-console.log(translation)
+return translation
 
 }
-leet_Speak(text)
+console.log(leet_Speak(text))
 
 
 // const textToTranslate = text.toUpperCase();
