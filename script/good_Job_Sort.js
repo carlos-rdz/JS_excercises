@@ -17,5 +17,15 @@ var people = [
   ];
 
 
-let sortedPeople = people.sort(length);
+
+
+let sortedPeople = people.sort(function(a,b) {
+
+  if (a.length < b.length){
+    return -1
+  } if (a.length > b.length){
+    return 1
+  }
+  return 0
+});
 console.log(sortedPeople);
