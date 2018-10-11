@@ -18,8 +18,7 @@ function square(x){
 }
 
 
-// new_Nums = our_Nums.filter(positive_Nums);
-// new_Nums = our_Nums.filter(even_Nums);
+
 new_Nums = our_Nums.map(square);
 
 console.log(our_Nums);

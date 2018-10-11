@@ -29,4 +29,3 @@ array_Of_City_Names = cities.map(city_Array)
 console.log(array_Of_City_Names)
 
 
-// Return cities with temperatures below 70
